@@ -29,3 +29,9 @@
    一个好玩的[网站](https://iknowwhatyoudownload.com/)：嗅探BT网络中ip的资源请求
 
    P2P资源分享应用：[BitTorrent](https://blog.jse.li/posts/torrent/#putting-it-all-together) 及一些原理解释 [blog](https://www.cnblogs.com/LittleHann/p/6180296.html)
+
+5. 关于debug
+
+   **建议**不要使用单步调试去调试整个DHT(这是因为DHT依赖于时延，而单步调试会改变时延，实际运行结果与单步调试的结果不相同)
+
+   推荐debug方式：将每个节点的行为log下来并分析，这里使用了[logrus](https://github.com/sirupsen/logrus)库
