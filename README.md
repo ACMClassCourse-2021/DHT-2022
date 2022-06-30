@@ -6,6 +6,7 @@
  - From a user perspective, a DHT essentially provides a map interface, with two main operations: <code>put(key, value)</code> and <code>get(key)</code>. Get will retrieve values stored at a certain key while put (often called announce) will store a value on the network. Note that many values can be stored under the same key.
  - There are many algorithms to implement DHT. For this project, you are required to <b>implement Chord protocol and Kademlia protocol</b>. You are also required to <b>implement an application of DHT</b>. Finally, you should <b>write a report for about one page</b>, probably about your architecture, innovation, features and references.
  - Some helpful documents under `\doc`
+ - TA: [RainyMemory](https://github.com/Rainy-Memory)  [happypig](https://github.com/happierpig) Feel free to contact us : )
 
 ## Assignment
 
@@ -14,6 +15,8 @@
 * Write a report for your whole project. 
 
 ## Syllabus
+
+> 4 weeks is plenty of time : Please feel free to arrange your time : )
 
 * Learn GoLang (Or learn when you need it).
 * Install the development environment (Recommended : **Ubuntu**).
