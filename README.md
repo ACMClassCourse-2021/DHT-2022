@@ -26,7 +26,7 @@
 
 ## Score
 
-GitHub repository for test: [DHT-2022](https://github.com/happierpig/DHT-2022)
+GitHub repository for test: [DHT-2022](https://github.com/ACMClassCourse-2021/DHT-2022)
 
 - 35% for the Chord Test
   - 30% + 5%: 30% for basic test and 5% for advance test.
